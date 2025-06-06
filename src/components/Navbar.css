@@ -39,7 +39,7 @@
   font-weight: 500;
   color: #1f2937;
   transition: color 0.2s ease;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .nav-links li a:hover {
