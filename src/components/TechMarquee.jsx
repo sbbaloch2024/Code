@@ -28,9 +28,10 @@ const TechMarquee = () => {
   return (
     <div className="tech-marquee-container">
       <div className="tech-marquee-track">
-        {logos.concat(logos).map((src, index) => (
-          <img key={index} src={src} alt={`tech-${index}`} className="tech-logo" />
-        ))}
+     {[...logos, ...logos].map((src, index) => (
+  <img key={index} src={src} alt={`tech-${index}`} className="tech-logo" />
+))}
+
       </div>
     </div>
   );
