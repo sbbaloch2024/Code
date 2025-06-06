@@ -7,11 +7,13 @@ import Navbar from './components/Navbar.jsx'
 import WhatIDo from './components/WhatIDo.jsx'
 import Projects from './components/Projects.jsx'
 import Footer from './components/Footer.jsx'
+import TechMarquee from './components/TechMarquee.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
     <Hero/>
+    <TechMarquee/>
     <Projects/>
     <Footer/>
   </StrictMode>,
