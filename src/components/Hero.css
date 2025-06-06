@@ -179,7 +179,6 @@
 @media screen and (max-width: 768px) {
   .hero-container {
     flex-direction: column;
-    padding: 20px;
     align-items: center;
     
   }
@@ -198,6 +197,7 @@
   .intro-text {
     text-align: center;
     padding: 0 16px;
+    
   }
 
   .experience-box {
@@ -214,6 +214,100 @@
     font-size: 16px;
     text-align: center;
   }
+
+  .highlight1{
+    background: #f9dc5c;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+        display: block;  
+                font-size: 0.9em;
+    /* Force it to take a full line */
+
+}
+
+
+
+.highlight2{
+    background: #ADD8E6;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+        display: block; 
+                font-size: 0.9em;
+     /* Force it to take a full line */
+
+}
+
+
+.highlight3{
+    background: #f8b3e8;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+        display: block;
+                font-size: 0.9em;
+     /* Force it to take a full line */
+
+}
+
+.highlight4{
+    background: #D1FFDD;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+        display: block;  
+        font-size: 0.9em;
+            /* Force it to take a full line */
+
+}
+
+.highlight5{
+    background: #ffe6cc;
+  padding: 2px 2px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+      display: block; 
+              font-size: 0.9em;
+    /* Force it to take a full line */
+}
+.number-box {
+  width: 30px;
+  height: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+
+.yellow {
+  background-color: #f9dc5c;
+}
+
+.blue {
+  background-color: #ADD8E6;
+}
+
+.pink {
+  background-color: #f8b3e8;
+}
+
+.purple {
+  background-color: #D1FFDD;
+}
+
+.orange {
+  background-color: #ffe6cc;
+}
 }
 
 
