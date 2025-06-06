@@ -21,7 +21,7 @@
   padding: 6px 6px;
   font-weight: 500;
   font-weight: bold;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS';
 }
 
 .intro-column {
@@ -41,7 +41,7 @@
   padding: 6px 12px;
   font-size: 1.5em;
   font-weight: 600;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS';
 
 
 }
