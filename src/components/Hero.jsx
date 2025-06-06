@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="experience-box">
           <div className="number-box blue">2</div>
           <div className="job-details">
-            <p><strong>Deep Learning Research Intern at <span className="highlight2">Chopra Science Lab</span></strong></p>
+            <p><strong>Deep Learning Intern at <span className="highlight2">Chopra Science Lab</span></strong></p>
             <p>Built GPT-Powered AI chatbot for Dementia Patients</p>
             <p className="date">Dec 2024 - May 2025</p>
           </div>
