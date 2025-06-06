@@ -9,6 +9,7 @@
   display: flex;
   width: max-content;
   animation: scrollRight 25s linear infinite;
+  align-items: center;
 }
 
 .tech-logo {
@@ -26,10 +27,29 @@
   }
 }
 
-/* Responsive */
+/* ===== Responsive Design ===== */
 @media (max-width: 768px) {
+  .tech-marquee-container {
+    padding: 8px 0;
+  }
+
+  .tech-marquee-track {
+    animation-duration: 20s; /* slightly faster scroll on mobile */
+  }
+
   .tech-logo {
     height: 35px;
-    margin: 0 12px;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-logo {
+    height: 28px;
+    margin: 0 8px;
+  }
+
+  .tech-marquee-track {
+    animation-duration: 18s;
   }
 }
