@@ -311,3 +311,57 @@
 }
 
 
+/* ====== iPad & Tablet Fix (medium screens) ====== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-pane,
+  .right-pane {
+    width: 100%;
+    padding: 0;
+  }
+
+  .experience-box {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+  }
+
+  .job-details p {
+    font-size: 0.95em;
+  }
+
+  .intro-column {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .highlight1,
+  .highlight2,
+  .highlight3,
+  .highlight4,
+  .highlight5 {
+    font-size: 0.95em;
+    display: inline-block;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 160px;
+  }
+
+  .number-box {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+  }
+}
